@@ -1,5 +1,5 @@
 import React from 'react';
-import _ from 'lodash';
+// import _ from 'lodash';
 import {RefreshIndicator} from 'material-ui';
 
 const styles = {

@@ -50,7 +50,7 @@ class MovieCardComponent extends React.Component {
             />
           }
         >
-          <img style={styles.bgImage} src={movie.poster_path} />
+          <img style={styles.bgImage} src={movie.poster_path} alt="description" />
         </CardMedia>
       </Card>
     );

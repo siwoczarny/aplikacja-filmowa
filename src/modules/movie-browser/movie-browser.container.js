@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {Container, Row, Col} from 'react-bootstrap';
-import {AppBar, TextField, RaisedButton, Toolbar} from 'material-ui';
+import {AppBar, Toolbar} from 'material-ui';
 import * as movieActions from './movie-browser.actions';
 import * as movieHelpers from './movie-browser.helpers';
 import MovieList from './movie-list/movie-list.component';
